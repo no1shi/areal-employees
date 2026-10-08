@@ -8,5 +8,5 @@ CREATE TABLE IF NOT EXISTS employees (
     position_id     INT NOT NULL REFERENCES positions(id),
     salary          NUMERIC(12, 2) NOT NULL,
     hire_date       DATE NOT NULL,
-    dismisse_date   DATE
+    dismissal_date   DATE
 )
