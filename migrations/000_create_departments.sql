@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS departments (
+    id      SERIAL PRIMARY KEY,
+    name    VARCHAR(128) NOT NULL UNIQUE,
+)
