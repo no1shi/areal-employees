@@ -1,4 +1,4 @@
 CREATE TABLE IF NOT EXISTS positions (
     id      SERIAL PRIMARY KEY,
-    name    VARCHAR(128) NOT NULL UNIQUE,
+    name    VARCHAR(128) NOT NULL UNIQUE
 )
